@@ -6,8 +6,8 @@ Bu proje, **BLM2537 Ağ Tabanlı Programlamaya Giriş** dersi dönem projesi kap
 GearCheck; kullanıcıların bilgisayar donanımlarını ve çevre birimlerini sergileyebildiği, teknik detaylarını ve fiyatlarını inceleyebildiği, ayrıca sisteme yeni ekipman verileri ekleyebildiği web tabanlı bir platformdur.
 
 ## Kullanılan Teknolojiler
-- **HTML5:** Semantik etiket yapısı (`header`, `nav`, `main`, `section`, `footer`, `table`, `form`)
-- **CSS3:** Dış stil dosyası (`css/stil.css`), Flexbox düzeni, `:root` renk değişkenleri ve kutu modeli (`border-box`)
+- **HTML:** Semantik etiket yapısı (`header`, `nav`, `main`, `section`, `footer`, `table`, `form`)
+- **CSS:** Dış stil dosyası (`css/stil.css`), Flexbox düzeni, `:root` renk değişkenleri ve kutu modeli (`border-box`)
 
 ## Sayfa Yapısı (Site Haritası)
 - `index.html`: Ana Sayfa (Proje tanıtımı ve özellik listesi)
