@@ -1,0 +1,88 @@
+:root {
+  --ana-renk: #14213d;
+  --vurgu-renk: #fca311;
+  --zemin: #f2f4f7;
+  --metin: #1f2937;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--metin);
+  background-color: var(--zemin);
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--ana-renk);
+}
+
+a {
+  color: var(--ana-renk);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--vurgu-renk);
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;           
+}
+
+nav ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #14213d;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #fca311;
+  color: white;
+}
+
+nav a.aktif {
+  background-color: #14213d;
+  color: white;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+
+tr, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr {
+  background-color: #4c0909;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.0rem;
+}
