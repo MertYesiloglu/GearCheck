@@ -7,12 +7,12 @@ GearCheck; kullanıcıların bilgisayar donanımlarını ve çevre birimlerini s
 
 ## Kullanılan Teknolojiler
 - **HTML:** Semantik etiket yapısı (`header`, `nav`, `main`, `section`, `footer`, `table`, `form`)
-- **CSS:** Dış stil dosyası (`stil.css`), Flexbox düzeni, `:root` renk değişkenleri ve kutu modeli (`border-box`)
+- **CSS:** Dış stil dosyası (`css/stil.css`), Flexbox düzeni, `:root` renk değişkenleri ve kutu modeli (`border-box`)
 
 ## Sayfa Yapısı (Site Haritası)
-- `index.html`: Ana Sayfa (Proje tanıtımı ve özellik listesi)
-- `ekipmanlar.html`: Mevcut Ekipman Listesi (Zebra tablo yapısında donanımlar)
-- `ekipman-ekle.html`: Yeni Ekipman & Donanım Ekle (HTML5 doğrulamalı form alanı)
+- `Hafta01/index.html`: Ana Sayfa (Proje tanıtımı ve özellik listesi)
+- `Hafta01/ekipmanlar.html`: Mevcut Ekipman Listesi (Zebra tablo yapısında donanımlar)
+- `Hafta01/ekipman-ekle.html`: Yeni Ekipman & Donanım Ekle (HTML5 doğrulamalı form alanı)
 
 ## Nasıl Çalıştırılır?
 1. Depoyu bilgisayarınıza indirin veya klonlayın:
