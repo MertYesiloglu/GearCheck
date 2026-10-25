@@ -7,7 +7,7 @@ GearCheck; kullanıcıların bilgisayar donanımlarını ve çevre birimlerini s
 
 ## Kullanılan Teknolojiler
 - **HTML:** Semantik etiket yapısı (`header`, `nav`, `main`, `section`, `footer`, `table`, `form`)
-- **CSS:** Dış stil dosyası (`css/stil.css`), Flexbox düzeni, `:root` renk değişkenleri ve kutu modeli (`border-box`)
+- **CSS:** Dış stil dosyası (`stil.css`), Flexbox düzeni, `:root` renk değişkenleri ve kutu modeli (`border-box`)
 
 ## Sayfa Yapısı (Site Haritası)
 - `index.html`: Ana Sayfa (Proje tanıtımı ve özellik listesi)
