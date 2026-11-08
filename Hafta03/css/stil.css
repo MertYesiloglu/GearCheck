@@ -1,0 +1,319 @@
+:root {
+  --ana-renk: #14213d;
+  --vurgu-renk: #fca311;
+  --zemin: #f2f4f7;
+  --metin: #1f2937;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--metin);
+  background-color: var(--zemin);
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--ana-renk);
+}
+
+a {
+  color: var(--ana-renk);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--vurgu-renk);
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;           
+}
+
+nav ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #14213d;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #fca311;
+  color: white;
+}
+
+nav a.aktif {
+  background-color: #14213d;
+  color: white;
+}
+
+
+.tablo-kutu {
+    overflow-x: auto;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--kenar, #D0D5DD);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    padding: 12px;
+    color: var(--metin, #1F2937);
+    background-color: var(--zemin, #F2F4F7);
+    border-bottom: 1px solid var(--kenar, #D0D5DD);
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--kenar, #D0D5DD);
+}
+
+th {
+    background-color: #4c0909;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zemin, #F2F4F7);
+}
+
+tbody tr:hover {
+    background-color: #e5e7eb;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 1.0rem;
+}
+
+.vurgu {
+    color: #e63946;
+    font-weight: bold;
+}
+
+#istatistikler {
+    margin-top: 24px;
+}
+
+.stats-grid {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.stat-card {
+    flex: 1;
+    background-color: var(--zemin, #F2F4F7);
+    border: 1px solid var(--kenar, #D0D5DD);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-card h2 {
+    color: var(--baglanti-renk, #1D7066);
+    font-size: 1.8rem;
+    margin: 0 0 6px 0;
+}
+
+.stat-card p {
+    color: var(--metin, #1F2937);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+#iletisim-formu-alani {
+    margin-top: 32px;
+}
+
+#iletisimformu {
+    background-color: var(--zemin, #F2F4F7);
+    border: 1px solid var(--kenar, #D0D5DD);
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 16px;
+}
+
+#iletisimformu label {
+    font-weight: 600;
+    color: var(--metin, #1F2937);
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#iletisimformu input[type="text"],
+#iletisimformu input[type="email"],
+#iletisimformu select,
+#iletisimformu textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--kenar, #D0D5DD);
+    border-radius: 6px;
+    font: inherit;
+    background-color: #ffffff;
+}
+
+#iletisimformu input:focus,
+#iletisimformu select:focus,
+#iletisimformu textarea:focus {
+    outline: 2px solid var(--vurgu-renk, #FCA311);
+    border-color: transparent;
+}
+
+#iletisimformu button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--vurgu-renk, #FCA311);
+    color: var(--ana-renk, #14213D);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#iletisimformu button:hover {
+    background-color: var(--baglanti-renk, #1D7066);
+    color: #ffffff;
+}
+
+#ekipman-ekle-alani {
+    margin-top: 16px;
+}
+
+#ekipmanFormu {
+    background-color: var(--zemin, #F2F4F7);
+    border: 1px solid var(--kenar, #D0D5DD);
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 16px;
+}
+
+#ekipmanFormu label {
+    font-weight: 600;
+    color: var(--metin, #1F2937);
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#ekipmanFormu input[type="text"],
+#ekipmanFormu input[type="number"],
+#ekipmanFormu select,
+#ekipmanFormu textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--kenar, #D0D5DD);
+    border-radius: 6px;
+    font: inherit;
+    background-color: #ffffff;
+}
+
+#ekipmanFormu input:focus,
+#ekipmanFormu select:focus,
+#ekipmanFormu textarea:focus {
+    outline: 2px solid var(--vurgu-renk, #FCA311);
+    border-color: transparent;
+}
+
+#ekipmanFormu button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--vurgu-renk, #FCA311);
+    color: var(--ana-renk, #14213D);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#ekipmanFormu button:hover {
+    background-color: var(--baglanti-renk, #1D7066);
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+        padding: 16px 12px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 10px 14px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .stats-grid {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .stat-card {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .team-card {
+        flex-direction: column;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .container, main {
+        padding-left: 12px;
+        padding-right: 12px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+
